@@ -1,0 +1,43 @@
+Your existing styles
+.animated-img {
+  /* filter: invert(0); */
+  width: 200px;
+  /* margin-top: 1091px; */
+  margin-bottom: 0px;
+  /* Add any other styles you need here */
+}
+
+.scroll-container{
+  margin-top: 1000px;
+}
+/* Media query for screens with a width less than 435px */
+
+
+@media (max-width: 990px) and (min-width: 436px) {
+  .animated-container {
+    display: none; /* Hide the entire container */
+  }
+ 
+  .parent{
+    display: none;
+    height: 0;
+  }
+  .scroll-container{
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 435px) {
+  .animated-img {
+    margin-top: 10px;
+    height: 90%;
+    width: 160px; /* Adjust the margin as needed for smaller screens */
+   
+  }
+  .scroll-container{
+    transform: rotate(90deg);
+    /* transform-origin: left top; */
+    margin-top: 0px;
+    margin-bottom: -220px;
+  }
+}

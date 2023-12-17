@@ -1,0 +1,44 @@
+@keyframes flicker {
+   0%, 100% {
+    background-color: red;
+  }
+
+  50% {
+    background-color: yellow;
+  }
+}
+
+.nav-link.active {
+  color: #fd5b03;
+  background: #ffffff;
+}
+.nav-link{
+    color : red;
+}
+
+
+
+@media (max-width: 992px) {
+    .navbar-logo{
+        display: none;
+    }
+}
+@media (max-width: 435px) {
+    .owl-container{
+        display: none;
+        width: '10rem',
+        
+    }
+  .flicker-banner {
+    animation: flicker 4s infinite;
+    padding-top: 20px;
+    width: 123%;
+    margin-top: -30px;
+    margin-left: -40px;
+    
+   
+  }
+    .flicker-banner span {
+    display: block;
+  }
+}
