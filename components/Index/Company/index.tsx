@@ -8,16 +8,6 @@ export const Company: FC = () => {
     <>
 
 
-<div className="grid grid-cols-3 gap-3 ">
-    <div className="row-span-3 bg-slate-600 p-3 rounded-md " >
-     <img src='https://dummyimage.com/600x400/000/fff' />
-    </div>
-    <div className="row-span-2 bg-slate-600 p-3 rounded-md"> <img src='https://dummyimage.com/600x400/000/fff' /></div>
-    <div className="bg-slate-600 p-3 rounded-md"> <img src='https://dummyimage.com/600x400/000/fff' /></div>
-    <div className="bg-slate-600 p-3 rounded-md"> <img src='https://dummyimage.com/600x400/000/fff' /></div>
-    <div className="col-span-2 bg-slate-600 p-3 rounded-md"> <img src='https://dummyimage.com/600x400/000/fff' /></div>
-
-</div>
       {/* <section
         className="page-title parallaxie"
         data-bg-img="/images/08.jpg"
